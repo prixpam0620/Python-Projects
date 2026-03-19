@@ -55,7 +55,7 @@ Boosted ticket sales: - Increased ticket sales by focusing on customers with a h
 When dealing with data for building machine learning models, it's essential to consider the sampling method to ensure that your model is trained on a representative dataset.
 On visual inspection, we observed that the data-set has less than 10% missing values, we used KNN imputer to replace the data using clustering algorithm.
 The output of the KNN imputer was validated before doing the analysis. 
-Data was checked in excel to understand numerical and string, float, missing value – and then the categorical values were replaced using a ‘. replace function’ 
+Data was checked in excel to understand numerical and string, float, missing value – and then the categorical values were replaced using a ‘.replace function’ 
 Data were also mapped to convert categorical to numerical values, they were encoded in binary numbers 0, and 1 for the model to interpret them correctly.
 
 2.2.4. DATA CLEANING
